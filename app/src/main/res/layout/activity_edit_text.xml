@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:textColor="#808080"
+        android:hint="用户名"
+        android:background="@drawable/bg_etn6"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawablePadding="5dp"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/icon_user"/>
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:textColor="#808080"
+        android:hint="密码"
+        android:background="@drawable/bg_etn6"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:inputType="textPassword"
+        android:layout_below="@+id/et_1"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="5dp"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/icon_password"/>
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_2"
+        android:text="温馨提示：此版本无须注册，请直接登录"
+        android:textColor="#ff9933"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tv_5"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_btn5"
+        android:text="登录"
+        android:textSize="18sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#074CB5"
+        />
+
+</RelativeLayout>
